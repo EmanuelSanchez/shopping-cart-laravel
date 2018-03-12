@@ -39,6 +39,7 @@ class ProductController extends Controller
         } else {
             Session::forget('cart');
         }
+
         return redirect()->route('product.shoppingCart');
     }
 
@@ -52,6 +53,7 @@ class ProductController extends Controller
         } else {
             Session::forget('cart');
         }
+
         return redirect()->route('product.shoppingCart');
     }
 
